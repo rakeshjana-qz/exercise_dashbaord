@@ -14,8 +14,8 @@ This project generates encoded query strings based on input from a CSV file and 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/csv_link_generator.git
-    cd csv_link_generator
+    gh repo clone rakeshjana-qz/exercise_dashbaord
+    cd exercise_dashbaord
     ```
 
 2. Install dependencies:
