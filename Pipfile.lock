@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "eb59631600319d033c7122481d6762bda48f2e66e04eabf2d12dd8d8ce0854e3"
+            "sha256": "2392034454d3d2b160c4666caf04763a72a001b30d9dd660bb10be26d8be3404"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -31,6 +31,13 @@
             "markers": "sys_platform == 'darwin'",
             "version": "==1.16.3"
         },
+        "modulegraph": {
+            "hashes": [
+                "sha256:5443e6d93c0b263f4ea309e2ff01312eef7c424dd51981a1e78e960c90e572b8",
+                "sha256:c914c8c95a0e10fe88505d4e9c2284b4e3dbc70943e306cc6567e36cc541bf4b"
+            ],
+            "version": "==0.19.6"
+        },
         "packaging": {
             "hashes": [
                 "sha256:026ed72c8ed3fcce5bf8950572258698927fd1dbda10a5e981cdf0ac37f4f002",
@@ -38,6 +45,14 @@
             ],
             "markers": "python_version >= '3.8'",
             "version": "==24.1"
+        },
+        "py2app": {
+            "hashes": [
+                "sha256:38b80f0c91f8d2dddb6396e6bbff8a84875f073c510f4f1a307e8ae44c7d73d8",
+                "sha256:cab7aec752a8b83e7c6cef7c15271dc720155275e44cbf610e3162e0807313ec"
+            ],
+            "index": "pypi",
+            "version": "==0.28.8"
         },
         "pyinstaller": {
             "hashes": [

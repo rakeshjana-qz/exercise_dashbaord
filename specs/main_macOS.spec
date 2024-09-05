@@ -28,23 +28,23 @@ exe = EXE(
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
-    upx=True,
+    upx=False,  # Disable UPX compression to avoid potential issues on macOS
     console=False,
 )
 
-app = BUNDLE(
-    exe,  # EXE instance passed here
-    name='ExerciseDashboard.app',
-    icon=None,
-    bundle_identifier=None,
-)
-
 coll = COLLECT(
-    app,  # BUNDLE instance passed here
+    exe,  # Only the EXE instance should be passed here
     a.binaries,
     a.zipfiles,
     a.datas,
     strip=False,
-    upx=True,
+    upx=False,  # Disable UPX compression for the entire bundle
     name='ExerciseDashboard_macOS',
+)
+
+app = BUNDLE(
+    coll,  # Pass the COLLECT instance here instead of EXE
+    name='ExerciseDashboard.app',
+    icon=None,
+    bundle_identifier=None,
 )
