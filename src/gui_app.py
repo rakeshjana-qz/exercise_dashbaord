@@ -1,3 +1,6 @@
+# This is deprecated in favor of the GUI application
+# Use ui.py and csv_processor.py to implement the GUI application
+# TODO: Remove this file after implementing the GUI application
 import tkinter as tk
 from tkinter import filedialog, messagebox
 from tkinterdnd2 import TkinterDnD, DND_FILES

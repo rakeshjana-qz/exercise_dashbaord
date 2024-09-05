@@ -1,11 +1,8 @@
-from utils import process_csv_and_add_encoded_query_string
-
-def main():
-    input_csv = "input.csv"  # Replace with your input CSV file path
-    output_csv = "output.csv"  # Replace with your desired output CSV file path
-    log_csv = "log.csv"  # Replace with your desired log CSV file path
-    
-    process_csv_and_add_encoded_query_string(input_csv, output_csv, log_csv)
+# src/main.py
+from tkinterdnd2 import TkinterDnD
+from ui import CSVLinkGeneratorApp
 
 if __name__ == "__main__":
-    main()
+    root = TkinterDnD.Tk()
+    app = CSVLinkGeneratorApp(root)
+    root.mainloop()
