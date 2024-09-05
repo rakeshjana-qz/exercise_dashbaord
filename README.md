@@ -48,7 +48,7 @@ Suppose your input CSV contains the following:
 
 | ex_limit | questionified | specific_ids | textbook_chapters | textbook_isbns      | textbook_pages | exclude_isbns | verified | question_batches | question_subjects | question_owners |
 |----------|---------------|--------------|-------------------|---------------------|----------------|---------------|----------|------------------|-------------------|-----------------|
-| 5        | true          | 123          | 1,2,3             | 978-3-16-148410-0    | 10-20          |               | false    | batch1           | math              | owner1          |
+| 5        | true          | 123          | 1,2,3             | 9783161484100    | 10-20          |               | false    | batch1           | math              | owner1          |
 
 #### Example Output CSV
 
@@ -56,7 +56,7 @@ After running the script or using the GUI, the output CSV will look like this:
 
 | ex_limit | questionified | specific_ids | textbook_chapters | textbook_isbns      | textbook_pages | exclude_isbns | verified | question_batches | question_subjects | question_owners | generated_encoded_query_string |
 |----------|---------------|--------------|-------------------|---------------------|----------------|---------------|----------|------------------|-------------------|-----------------|---------------------------------|
-| 5        | true          | 123          | 1,2,3             | 978-3-16-148410-0    | 10-20          |               | false    | batch1           | math              | owner1          | YourEncodedStringHere           |
+| 5        | true          | 123          | 1,2,3             | 9783161484100    | 10-20          |               | false    | batch1           | math              | owner1          | YourEncodedStringHere           |
 
 ### Testing
 
